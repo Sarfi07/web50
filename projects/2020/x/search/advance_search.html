@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="googlelogo_color_272x92dp.png" alt="google" style="width: 74px; height: 24px; display: inline-block;">
+            <div class="upper_right">
+                <a href="index.html">Google Search</a>
+                <a href="image_search.html">Image Search</a>
+            </div>
+        </div>
+        <h3 style="color:red">Advance Search</h3>
+        <form action="https://www.google.com/search">
+            <div class="search_type">
+                <span>Find pages with...</span>
+            </div>
+            <div class="main_body">
+                <label for="all_words">all these words</label>
+                <input class="inputs" value="" autofocus="autofocus" id="all_words" name="as_q" type="text">
+            </div>
+            <div class="main_body">
+                <label for="exact_words">this exact word or phrase</label>
+                <input class="inputs" value="" autofocus="autofocus" id="exact_words" name="as_epq" type="text">
+            </div>
+            <div class="main_body">
+                <label for="any_words">any of these any_words</label>
+                <input class="inputs" value="" autofocus="autofocus" id="any_words" name="as_oq" type="text">
+            </div>
+            <div class="main_body">
+                <label for="none_words">none of these words</label>
+                <input class="inputs" value="" autofocus="autofocus" id="none_words" name="as_eq" type="text">
+            </div>
+            <div class="button">
+                <input type="submit" value="Advance Search" style=" height:40px; width: 120px; border-radius: 25px; background-color: #0379ed; color: #fff">
+            </div>
+        </form>
+       
+    </body>
+</html>

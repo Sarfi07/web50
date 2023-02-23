@@ -1,0 +1,62 @@
+.upper_right{
+    margin-left: 70%;
+}
+div a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+input.btn:hover{
+    background-color: #0379ed;
+    color: #fff;
+}
+
+
+
+.center{
+    text-align: center;
+    margin:200px;
+    
+}
+
+
+#input{
+    display:block;
+    border-radius: 25px;
+    height: 44px;
+    width: 358px;
+    margin:auto;
+
+
+}
+
+#home_logo{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+.inputs{
+    height: 29px;
+    width: 50vw;
+    border-radius: 1px;
+}
+
+.main_body label{
+    display: inline-block;
+    text-align: left;
+    width: 10vw;
+    margin: 2rem;
+   
+}
+.main_body input{
+    display: inline;
+}
+
+.button{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
